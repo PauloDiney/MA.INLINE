@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MA.INLINE</title>
+
+</head>
+
+<body>
+
+
+    <header class="container">
+        <nav class="nav-container">
+            <ul class="nav-list">
+                <li>
+                    <a href="">Home</a>
+                </li>
+
+                <li>
+                    <a href="">Informações</a>
+                </li>
+
+                <li>
+                    <a href="">Sobre nós</a>
+                </li>
+
+                <li>
+                    <a href="">Contato</a>
+                </li>
+
+            </ul>
+
+            <button class="button-open">
+                <span></span>
+            </button>
+        </nav>
+        <main class="main-container">
+            <h1>FUNCIONAMENTO DAS AULAS</h1>
+            <p>Informações sobre horários, dias e valores das aulas</p>
+            <div class="block"></div>
+            <img src="./img/logo.png" alt="">
+        </main>
+
+
+    </header>
+
+    <section class="info-container">
+        <section class="info">
+
+        </section>
+        <section class="info">
+
+        </section>
+
+    </section>
+
+    <script>
+        $(document).ready(function () {
+            $('.button-open').click(function () {
+                $('.nav-list').toggleClass('active');
+                $('.button-open').toggleClass('toggle');
+            });
+        });
+    </script>
+</body>
+
+</html>
