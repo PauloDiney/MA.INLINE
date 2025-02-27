@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
@@ -42,20 +44,65 @@
             <h1>FUNCIONAMENTO DAS AULAS</h1>
             <p>Informações sobre horários, dias e valores das aulas</p>
             <div class="block"></div>
-            <div class="img"></div>
+            <img src="./img/logo.png" alt="">
         </main>
-
-
     </header>
 
     <section class="info-container">
-        <section class="info">
+        <h1>Informações</h1>
+        <ion-icon class="icon" name="alert-circle-outline"></ion-icon>
 
+        <section class="info">
+            <section class="infos">
+                <img src="./img/perso3.png" alt="">
+                
+            </section>
+            <section class="infos">
+                <p>Aprenda a Patinar com Segurança e Diversão!</p>
+            </section>
         </section>
         <section class="info">
-
+            <section class="infos">
+                <img src="/img/perso4.png" alt="">
+            </section>
+            <section class="infos">
+                <p>Tem ou não tem patins? Não importa! Minhas aulas são para todos os níveis.</p>
+            </section>
+        </section>
+        <section class="info">
+            <section class="infos">
+                <img src="/img/perso5.png" alt="">
+            </section>
+            <section class="infos">
+                <p>As aulas são individuais ou em grupo, você escolhe!</p>
+            </section>
         </section>
 
+    </section>
+
+    <section class="container-carrosel">
+        <h1>Sobre nós</h1>
+        <span></span>
+        <section class="carrosel">
+            <img src="/img/perso1.png" alt="">
+        </section>
+        <section class="carrosel">
+            <img src="/img/perso2.png" alt="">
+        </section>
+        <section class="carrosel">
+            <img src="/img/perso3.png" alt="">
+        </section>
+        <section class="carrosel">
+            <img src="/img/perso4.png" alt="">
+        </section>
+        <section class="carrosel">
+            <img src="/img/perso5.png" alt="">
+        </section>
+        <button id="next">></button>
+        <button id="prev"><</button>
+    </section>
+    <section>
+        
     </section>
 
     <script>
@@ -63,9 +110,12 @@
             $('.button-open').click(function () {
                 $('.nav-list').toggleClass('active');
                 $('.button-open').toggleClass('toggle');
+                $('.main-container').toggleClass('blur');
             });
         });
     </script>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
