@@ -9,6 +9,36 @@ html {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.up-button{
+    position: fixed;
+    right: 10px;
+    width: 30px;
+    z-index: 1000;
+    border-radius: 10px;
+    bottom: 50px;
+    height: 30px;
+    background-color: #fff;
+    border: none;
+    transform: rotate(270deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.up-button a{
+    text-decoration: none;
+    margin: 0 auto;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #FF7520;
+}
+
 .container {
     width: 100%;
     height: 75vh;
@@ -17,6 +47,7 @@ html {
     background-color: rgba(253, 106, 0, 0.7);
 
 }
+
 
 .blur {
     filter: blur(5px);
@@ -41,7 +72,7 @@ html {
     display: block;
     opacity: 0;
     transition: .3s;
-    background-color: rgb(255, 205, 113, 1);
+    background-color: rgb(250, 113, 1);
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
     transform: rotate(90deg);
@@ -63,8 +94,7 @@ html {
 }
 
 .nav-list li:hover{
-    background-color: rgb(255, 179, 39);
-    
+    background-color: rgba(253, 106, 0, 0.7);    
 }
 
 .nav-list li a {
@@ -92,7 +122,7 @@ html {
     z-index: 1;
     width: 100%;
     height: 5px;
-    background-color: rgb(255, 179, 39);
+    background-color: rgb(255, 255, 255);
     display: block;
     position: absolute;
     border-radius: 10px;
@@ -105,7 +135,7 @@ html {
     z-index: 1;
     width: 100%;
     height: 5px;
-    background-color: rgb(255, 179, 39);
+    background-color: rgb(255, 255, 255);
     display: block;
     position: absolute;
     top: -15px;
@@ -118,7 +148,7 @@ html {
     z-index: 1;
     width: 100%;
     height: 5px;
-    background-color: rgb(255, 179, 39);
+    background-color: rgb(255, 255, 255);
     display: block;
     position: absolute;
     top: 15px;
@@ -158,6 +188,7 @@ html {
 
 .main-container h1 {
     position: absolute;
+    display: block;
     top: -10px;
     font-size: 1.3rem;
     letter-spacing: .1rem;
@@ -180,8 +211,8 @@ html {
 .block {
     position: absolute;
     margin: 0 auto;
-    width: 270px;
-    height: 200px;
+    width: 175px;
+    height: 150px;
     background-color: rgba(255, 255, 255);
     border-radius: 100px;
 
@@ -190,8 +221,8 @@ html {
 .main-container img {
     margin: 0 auto;
     padding: 10px;
-    width: 300px;
-    height: 300px;
+    width: auto;
+    height: 200px;
     z-index: 2;
     position: absolute;
 
@@ -326,4 +357,53 @@ html {
 #next{
     left: unset;
     right: 5px;
+}
+
+.hour-container{
+    width: 100%;
+    height: 50vh;
+    background-color: #ffffff;
+}
+
+.hour-itens{
+    width: 100%;
+    height: 25vh;
+    background-color: #FF7520;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hour-itens h1{
+    text-align: center;
+    color: #e6e6e6;
+    font-size: 2em;
+    letter-spacing: .1em;
+    padding: 10px;
+}
+
+.hour-itens p{
+    color: #e6e6e6;
+    font-size: 1.5em;
+    letter-spacing: .1em;
+}
+
+.hour-container h2{
+    color: #FF7520;
+    font-size: 1.5em;
+    letter-spacing: .1em;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.hour-container p{
+    margin-top: 10px;
+    color: #FF7520;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 10px;
+    font-weight: 500;
 }

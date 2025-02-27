@@ -13,25 +13,28 @@
 </head>
 
 <body>
-
+    <button class="up-button">
+        <a href="#home">></a>
+    </button>
 
     <header class="container">
+
         <nav class="nav-container">
             <ul class="nav-list">
                 <li>
-                    <a href="">Home</a>
+                    <a href="#home">Home</a>
                 </li>
 
                 <li>
-                    <a href="">Informações</a>
+                    <a href="#info">Informações</a>
                 </li>
 
                 <li>
-                    <a href="">Sobre nós</a>
+                    <a href="#sobre">Sobre nós</a>
                 </li>
 
                 <li>
-                    <a href="">Contato</a>
+                    <a href="#contato">Contato</a>
                 </li>
 
             </ul>
@@ -40,22 +43,24 @@
                 <span></span>
             </button>
         </nav>
-        <main class="main-container">
+        <main id="home" class="main-container">
+
+            <img src="./img/logo.png" alt="">
             <h1>FUNCIONAMENTO DAS AULAS</h1>
             <p>Informações sobre horários, dias e valores das aulas</p>
             <div class="block"></div>
-            <img src="./img/logo.png" alt="">
+
         </main>
     </header>
 
-    <section class="info-container">
+    <section id="info" class="info-container">
         <h1>Informações</h1>
         <ion-icon class="icon" name="alert-circle-outline"></ion-icon>
 
         <section class="info">
             <section class="infos">
                 <img src="./img/perso3.png" alt="">
-                
+
             </section>
             <section class="infos">
                 <p>Aprenda a Patinar com Segurança e Diversão!</p>
@@ -79,8 +84,9 @@
         </section>
 
     </section>
+    
 
-    <section class="container-carrosel">
+    <section id="sobre" class="container-carrosel">
         <h1>Sobre nós</h1>
         <span></span>
         <section class="carrosel">
@@ -102,7 +108,17 @@
         <button id="prev"><</button>
     </section>
     <section>
-        
+
+    </section>
+    <section class="hour-container">
+        <section class="hour-itens">
+            <h1>DIA E HORÁRIO DA AULA</h1>
+            <p>Em grupo</p>
+        </section>
+
+        <h2>TERÇA</h2>
+        <h2>HORÁRIO - 18:30H ÁS 19:30H</h2>
+        <p>Para crianças iniciantes até 07 anos</p>
     </section>
 
     <script>
