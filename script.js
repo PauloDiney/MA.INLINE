@@ -37,7 +37,7 @@ document.getElementById('btn-prudente').addEventListener('click', function() {
     document.getElementById('remove-p').innerText = '*obs - por enquanto só temos turma na terça'
     toggleSection(true);
     toggleActiveButton('btn-prudente');
-    updateClassItems('R$ 30,00', 'R$ 30 x 4 = R$ 120', 'R$ 35 x 4 = R$ 140');
+    updateClassItems('R$ 30,00', 'R$ 30 x 4 = R$ 120 Individual', 'R$ 35 x 4 = R$ 140 Grupo');
 });
 
 document.getElementById('btn-feijo').addEventListener('click', function() {
@@ -46,7 +46,7 @@ document.getElementById('btn-feijo').addEventListener('click', function() {
     document.getElementById('remove-p').innerText = '';
     toggleSection(false);
     toggleActiveButton('btn-feijo');
-    updateClassItems('R$ 25,00', 'R$ 25 x 4 = R$ 100', '');
+    updateClassItems('R$ 25,00', 'R$ 25 x 4 = R$ 100 Grupo', '');
 });
 
 function toggleSection(add) {
