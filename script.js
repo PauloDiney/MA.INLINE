@@ -34,7 +34,7 @@ document.getElementById('btn-prudente').addEventListener('click', function() {
     document.getElementById('day').innerText = 'TERÇA-FEIRA';
     document.getElementById('time').innerText = 'HORÁRIO - 18:30H ÁS 19:30H';
     document.getElementById('description').innerText = 'Para crianças iniciantes até 07 anos';
-    document.getElementById('remove-p').innerText = 'No momento temos apenas apenas a turma de terça-feira '
+    document.getElementById('remove-p').innerText = 'No momento temos apenas apenas a turma de terça-feira'
     toggleSection(true);
     toggleActiveButton('btn-prudente');
     updateClassItems('R$ 30,00', 'R$ 30 x 4 = R$ 120 Individual', 'R$ 35 x 4 = R$ 140 Grupo');
