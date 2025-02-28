@@ -116,46 +116,98 @@
     <section>
 
     </section>
+    <section class="button-change">
+        <button class="button-itens" id="btn-prudente" >Presidente-Prudente</button>
+        <h1>/</h1>
+        <button class="button-itens" id="btn-feijo">Rejente-Feijó</button>
+    </section>
+    
     <section id="clas" class="hour-container">
         <section class="hour-itens">
             <h1>DIA E HORÁRIO DA AULA</h1>
             <p>Em grupo</p>
         </section>
 
-        <h2>TERÇA-FEIRA</h2>
-        <h2>HORÁRIO - 18:30H ÁS 19:30H</h2>
-        <p>Para crianças iniciantes até 07 anos</p>
+        <h2 id="day">TERÇA-FEIRA</h2>
+        <h2 id="time">HORÁRIO - 18:30H ÁS 19:30H</h2>
+        <p id="description">Para crianças iniciantes até 07 anos</p>
+        <p id="remove-p">*obs - por enquanto só temos turma na terça </p>
     </section>
+
 
     <section id="plans" class="clas-container">
         <h1>VALORES DAS AULAS</h1>
         <section class="clas-align">
-            <section class="clas-itens-1">
+            <section id="remove" class="clas-itens-1">
                 <h2>INDIVIDUAL</h2>
                 <p>R$ 35,00</p>
-                <button>Contato</button>
+                <a href="https://wa.me/5518996651083" target="_blank">
+                    <button>Contato</button>
+                </a>
             </section>
             <section class="clas-itens-2">
                 <h2>EM GRUPO</h2>
-                <p>R$ 30,00</p>
-                <button>Contato</button>
+                <p id="mud-1">R$ 30,00</p>
+                <a href="https://wa.me/5518996651083" target="_blank">
+                    <button>Contato</button>
+                </a>
             </section>
             <section class="clas-itens-3">
                 <h2>MENSAL</h2>
-                <p>R$ 30 x 4 = R$ 120</p>
-                <p>R$ 35 x 4 = R$ 140</p>
-
+                <p class="mud-2">R$ 30 x 4 = R$ 120</p>
+                <p class="mud-3">R$ 35 x 4 = R$ 140</p>
                 <p>4 aulas no mês</p>
                 <p>1 aula na semana</p>
-                <button>Contato</button>
+                <a href="https://wa.me/5518996651083" target="_blank">
+                    <button>Contato</button>
+                </a>
             </section>
         </section>
 
     </section>
     <section class="reminder-container">
-
+        <section class="reminder-left">
+            <ion-icon name="clipboard-outline"></ion-icon>
+        </section>
+        <section class="reminder-right">
+            <h1>LEMBRETE</h1>
+            <ul class="reminder-list">
+                <li>
+                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                    <p>Garrafa de Agua</p>
+                </li>
+                <li>
+                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                    <p>Par de meias</p>
+                </li>
+                <li>
+                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                    <p>Repelentes</p>
+                </li>
+            </ul>
+        </section>
+    </section>
+    <section class="contact-container" id="contato">
+        
+        <section class="contact">
+            <h1>CONTATOS</h1>
+            <a href="https://wa.me/5518996651083" target="_blank">
+                <ion-icon class="icon-contact" name="logo-whatsapp"></ion-icon>
+            </a>
+        </section>
+        <span></span>
+        <section class="contact">
+            <a href="https://www.instagram.com/SEU_NOME_DE_USUARIO" target="_blank">
+                <ion-icon class="icon-contact" name="logo-instagram"></ion-icon>
+            </a>
+        </section>
     </section>
 
+    <footer class="footer-container">
+        <p>MA.INLINE - 2021</p>
+        <p>Desenvolvido por<a href="https://github.com/PauloDiney">Paulo Diney</a></p>
+        
+    </footer>
     <script>
         $(document).ready(function () {
             $('.button-open').click(function () {
@@ -165,7 +217,6 @@
             });
         });
     </script>
-
     <script src="script.js"></script>
 </body>
 

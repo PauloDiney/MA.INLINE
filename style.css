@@ -65,8 +65,6 @@ body{
     height: 15%;
     z-index: 100;
     padding: 10px;
-
-
 }
 
 .nav-list {
@@ -88,10 +86,8 @@ body{
 }
 
 .active {
-
     opacity: 1;
     transform: translate(0);
-
 }
 
 .nav-list li {
@@ -109,7 +105,6 @@ body{
     color: rgb(255, 255, 255);
     font-weight: 500;
     font-size: 1.2rem;
-
 }
 
 .button-open {
@@ -183,21 +178,18 @@ body{
 .main-container {
     height: 65vh;
     width: 100%;
-    position: relative;
     flex-direction: column;
+    position: relative;
     padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .main-container h1 {
-    position: absolute;
     display: block;
     top: -10px;
-    font-size: 2rem;
+    font-size: 36px;
     letter-spacing: .1rem;
     font-weight: 800;
     color: rgb(255, 255, 255);
@@ -205,11 +197,10 @@ body{
 }
 
 .main-container p {
-    position: absolute;
     top: 85px;
     color: rgb(255, 255, 255);
     letter-spacing: 0.1em;
-    font-size: 1.3em;
+    font-size: 20px;
     font-weight: bold;
     margin: 0 auto;
     padding: 10px;
@@ -218,21 +209,20 @@ body{
 
 .block {
     position: absolute;
+    top: 70px;
     margin: 0 auto;
-    width: 175px;
-    height: 150px;
+    width: 250px;
+    height: 240px;
     background-color: rgba(255, 255, 255);
     border-radius: 100px;
 
 }
 
 .main-container img {
-    margin: 0 auto;
     padding: 10px;
     width: auto;
-    height: 200px;
+    height: 300px;
     z-index: 2;
-    position: absolute;
 
 }
 
@@ -364,6 +354,40 @@ body{
     right: 5px;
 }
 
+.button-change{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.button-itens{
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: transparent;
+    color: #FF7520;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
+    transition: .2s;
+    outline: none;
+}
+
+.button-itens.active {
+    text-decoration: underline;
+}
+
+.button-change h1{
+    font-size: 1.5rem;
+    color: #FF7520;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0 auto;
+    
+}
+
 .hour-container{
     width: 100%;
     height: auto;
@@ -372,7 +396,7 @@ body{
 
 .hour-itens{
     width: 100%;
-    height: 20vh;
+    height: 25vh;
     background-color: #FF7520;
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
@@ -435,7 +459,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
+    height: auto;
     align-items: center;
     padding: 5px;
 }
@@ -523,4 +547,140 @@ body{
     color: #FF7520;
     transform: scale(1.1);
 }
+
+
+.reminder-container{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+
+.reminder-left{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 7rem;
+    background-color: #FF7520;
+    color: #ffffff;
+}
+
+.reminder-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #ffffff;
+}
+
+.reminder-right h1{
+    color: #FF7520;
+    font-size: 2rem;
+    letter-spacing: .1em;
+    padding: 5px;
+}
+
+.reminder-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style:  none;
+}
+
+.reminder-list li {
+    display: flex;
+    color: #FF7520;
+    align-items: center;
+    padding: 10px;
+}
+
+.reminder-list ion-icon {
+    font-size: 2rem;
+    color: #FF7520;
+    font-weight: bold;
+    margin-right: 10px; /* Ajuste a margem conforme necessário */
+}
+
+.contact-container{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 20vh;
+    background-color: #fff4ed;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact h1{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    color: #ff9351;
+    font-size: 1.5em;
+    letter-spacing: .1em;
+    padding: 10px;
+
+}
+
+.contact-container span{
+    height: 100%;
+    width: 2px;
+    background-color: #ffc7a4;
+}
+
+.contact-container a{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-contact{
+    font-size: 5rem;
+    color: #ff9859;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+.footer-container{
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    flex-direction: column;
+    background-color: #FF7520;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container p{
+    color: #ffffff;
+    font-size: 1em;
+    letter-spacing: .1em;
+    padding: 10px;
+}
+
+.footer-container a{
+    color: #00bfff;
+    font-size: 1em;
+    letter-spacing: .1em;
+    padding: 10px;
+    text-decoration: none;
+}
+
 
