@@ -176,10 +176,10 @@ body{
 
 
 .main-container {
-    height: 65vh;
-    width: 100%;
-    flex-direction: column;
     position: relative;
+    height: 65vh;
+    width: auto;
+    flex-direction: column;
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -207,23 +207,14 @@ body{
 
 }
 
-.block {
-    position: absolute;
-    top: 70px;
-    margin: 0 auto;
-    width: 250px;
-    height: 240px;
-    background-color: rgba(255, 255, 255);
-    border-radius: 100px;
-
-}
 
 .main-container img {
+ 
     padding: 10px;
     width: auto;
+    margin: 0 auto;
     height: 300px;
-    z-index: 2;
-
+    z-index: 2; /* Ensure the image is in front of the block */
 }
 
 .info-container {
