@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 html {
     scroll-behavior: smooth;
 }
@@ -6,7 +8,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Antonio", serif;
 }
 
 body{
@@ -17,25 +19,29 @@ body{
 .up-button{
     position: fixed;
     right: 10px;
-    width: 30px;
     z-index: 1000;
     border-radius: 10px;
     bottom: 50px;
     height: 30px;
+    width: 30px;
     background-color: #fff;
     border: none;
-    transform: rotate(270deg);
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    cursor: pointer;
+    transition: .2s;
 }
 
+
 .up-button a{
+    display: flex;
     text-decoration: none;
-    margin: 0 auto;
+    text-align: center;
     font-size: 2rem;
-    font-weight: 900;
+    margin: 5px;
+    z-index: 1000;
+    font-weight: bold;
     color: #FF7520;
 }
 
@@ -66,7 +72,7 @@ body{
 .nav-list {
     position: absolute;
     width: 50%;
-    height: 20vh;
+    height: auto;
     right: 30px;
     list-style: none;
     display: block;
@@ -78,6 +84,7 @@ body{
     transform: rotate(90deg);
     transform-origin: 100% 0;
     overflow: hidden;
+    padding: 10px;
 }
 
 .active {
@@ -190,7 +197,7 @@ body{
     position: absolute;
     display: block;
     top: -10px;
-    font-size: 1.3rem;
+    font-size: 2rem;
     letter-spacing: .1rem;
     font-weight: 800;
     color: rgb(255, 255, 255);
@@ -199,11 +206,12 @@ body{
 
 .main-container p {
     position: absolute;
-    top: 60px;
+    top: 85px;
     color: rgb(255, 255, 255);
     letter-spacing: 0.1em;
-    font-size: 1em;
+    font-size: 1.3em;
     font-weight: bold;
+    margin: 0 auto;
     padding: 10px;
 
 }
@@ -291,7 +299,7 @@ body{
     align-items: center;
     position: relative;
     height: 370px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(255, 51, 0, 0.5);
     
 }
 
@@ -336,9 +344,6 @@ body{
     top: 100px;
 }
 
-
-
-
 #next, #prev{
     position: absolute;
     width: 20px;
@@ -361,13 +366,13 @@ body{
 
 .hour-container{
     width: 100%;
-    height: 50vh;
+    height: auto;
     background-color: #ffffff;
 }
 
 .hour-itens{
     width: 100%;
-    height: 25vh;
+    height: 20vh;
     background-color: #FF7520;
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
@@ -375,35 +380,147 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-items: center;
 }
 
 .hour-itens h1{
     text-align: center;
-    color: #e6e6e6;
+    color: #ffffff;
     font-size: 2em;
     letter-spacing: .1em;
     padding: 10px;
 }
 
-.hour-itens p{
-    color: #e6e6e6;
-    font-size: 1.5em;
+.hour-container .hour-itens p{
+    color: #ffffff;
+    font-size: 1em;
     letter-spacing: .1em;
 }
 
 .hour-container h2{
     color: #FF7520;
-    font-size: 1.5em;
+    font-size: 1.2em;
     letter-spacing: .1em;
     margin-top: 10px;
     text-align: center;
+    padding: 10px;
 }
 
 .hour-container p{
     margin-top: 10px;
     color: #FF7520;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1em;
     padding: 10px;
     font-weight: 500;
 }
+
+.clas-container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #ededed;
+    flex-direction: column;
+}
+
+.clas-container h1{
+    text-align: center;
+    color: #FF7520;
+    font-size: 2em;
+    letter-spacing: .1em;
+    padding: 10px;
+}
+
+.clas-align{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    padding: 5px;
+}
+
+.clas-itens-1{
+    width: 90%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    background-color: #ffffff;
+    border: solid 2px #FF7520;
+    margin: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.clas-itens-2{
+    width: 90%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    background-color: #ffffff;
+    border: solid 2px #FF7520;
+    margin: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.clas-itens-3{
+    width: 90%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    background-color: #ffffff;
+    border: solid 2px #FF7520;
+    margin: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.clas-itens-1 h2,
+.clas-itens-3 h2,
+.clas-itens-2 h2{
+    color: #FF7520;
+    font-size: 2em;
+    letter-spacing: .1em;
+    padding: 10px;
+}
+.clas-itens-1 p,
+.clas-itens-2 p,
+.clas-itens-3 p{
+    color: #FF7520;
+    font-size: 1em;
+    padding: 5px;
+}
+
+.clas-itens-1 button,
+.clas-itens-2 button,
+.clas-itens-3 button{
+    width: 100px;
+    height: 50px;
+    background-color: #FF7520;
+    color: #ffffff;
+    border: 1px solid #FF7520;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: .2s;
+}
+
+.clas-itens-1 button:hover,
+.clas-itens-2 button:hover,
+.clas-itens-3 button:hover{
+    background-color: #ffffff;
+    color: #FF7520;
+    transform: scale(1.1);
+}
+
