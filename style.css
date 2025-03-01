@@ -347,6 +347,15 @@ body{
     right: 5px;
 }
 
+.chenge-text{
+    display: flex;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: #FF7520;
+}
+
 .button-change{
     display: flex;
     justify-content: center;
@@ -510,7 +519,7 @@ body{
 .clas-itens-3 h2,
 .clas-itens-2 h2{
     color: #FF7520;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 700;
     letter-spacing: .1em;
     padding: 10px;
@@ -520,7 +529,7 @@ body{
 .clas-itens-3 p{
     
     color: #000000;
-    font-size: 14px;
+    font-size: 15px;
     letter-spacing: 1px;
     font-weight: 700;
     padding: 5px;
@@ -529,8 +538,9 @@ body{
 .clas-itens-1 button,
 .clas-itens-2 button,
 .clas-itens-3 button{
-    width: 100px;
+    width: 70px;
     height: 50px;
+    
     background-color: #FF7520;
     color: #ffffff;
     border: 1px solid #FF7520;
@@ -681,7 +691,7 @@ body{
 
 .footer-container p{
     color: #ffffff;
-    font-size: 10px;
+    font-size: 15px;
     letter-spacing: .1em;
     font-weight: 700;
     padding: 10px;

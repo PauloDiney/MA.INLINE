@@ -32,7 +32,7 @@ setInterval(() => {
 
 document.getElementById('btn-prudente').addEventListener('click', function() {
     document.getElementById('day').innerText = 'TERÇA-FEIRA';
-    document.getElementById('time').innerText = 'HORÁRIO - 18:30H ÁS 19:30H';
+    document.getElementById('time').innerText = 'HORÁRIO - 18:30 ÀS 19:30';
     document.getElementById('description').innerText = 'Para crianças iniciantes até 07 anos';
     document.getElementById('remove-p').innerText = 'No momento temos apenas apenas a turma de terça-feira'
     toggleSection(true);
@@ -42,7 +42,7 @@ document.getElementById('btn-prudente').addEventListener('click', function() {
 
 document.getElementById('btn-feijo').addEventListener('click', function() {
     document.getElementById('day').innerText = 'SEXTA-FEIRA';
-    document.getElementById('time').innerText = 'HORÁRIO - 17:00H ÁS 18:00H  18:00H ÁS 19:00H';
+    document.getElementById('time').innerText = 'HORÁRIO - 17:00 ÀS 18:00  18:00 ÁS 19:00';
     document.getElementById('remove-p').innerText = '';
     toggleSection(false);
     toggleActiveButton('btn-feijo');
