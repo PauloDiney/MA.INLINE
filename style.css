@@ -470,7 +470,7 @@ body{
 }
 
 .clas-itens-1{
-    width: 90%;
+    width: 85%;
     height: 30vh;
     display: flex;
     flex-direction: column;
@@ -485,7 +485,7 @@ body{
     margin-top: 10px;
 }
 .clas-itens-2{
-    width: 90%;
+    width: 85%;
     height: 30vh;
     display: flex;
     flex-direction: column;
@@ -500,7 +500,7 @@ body{
     margin-top: 10px;
 }
 .clas-itens-3{
-    width: 90%;
+    width: 85%;
     height: 35vh;
     display: flex;
     flex-direction: column;
