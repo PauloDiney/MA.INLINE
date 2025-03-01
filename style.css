@@ -201,8 +201,7 @@ body{
     top: 85px;
     color: rgb(0, 0, 0);
     letter-spacing: 0.1em;
-    font-size: 13px;
-    font-weight: bold;
+    font-size: 15px;
     margin: 0 auto;
     padding: 10px;
 }
@@ -267,7 +266,7 @@ body{
 
 .infos p{
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: .1em;
     color: #fff;
     padding: 10px;
@@ -355,9 +354,10 @@ body{
 
 .button-itens{
     width: 200px;
+    padding: 5px;
     height: 50px;
-    font-size: 10px;
-    font-weight: bold;
+    font-size: 12px;
+    font-weight: 300;
     background-color: transparent;
     color: #FF7520;
     border: none;
@@ -388,7 +388,7 @@ body{
 
 .hour-itens{
     width: 100%;
-    height: 25vh;
+    height: 20vh;
     background-color: #FF7520;
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
@@ -416,7 +416,7 @@ body{
 .hour-container h2{
     color: #000000;
     font-size: 20px;
-    letter-spacing: .1em;
+    letter-spacing: 5px;
     margin-top: 10px;
     text-align: center;
     padding: 10px;
@@ -426,9 +426,10 @@ body{
     margin-top: 10px;
     color: #000000;
     text-align: center;
-    font-size: 1em;
+    font-size: 13px;
+    letter-spacing: 2px;
     padding: 10px;
-    font-weight: 500;
+    font-weight: 200;
 }
 
 .clas-container{
@@ -514,7 +515,8 @@ body{
 .clas-itens-2 p,
 .clas-itens-3 p{
     color: #000000;
-    
+    font-size: 15px;
+    letter-spacing: 2px;
     padding: 5px;
 }
 
@@ -583,7 +585,7 @@ body{
 .reminder-right p{
     color: #ffffff;
     font-size: 10px;
-    letter-spacing: .1em;
+    letter-spacing: 1px;
     padding: 5px;
 }
 
@@ -602,10 +604,10 @@ body{
 }
 
 .reminder-list ion-icon {
-    font-size: 2rem;
+    font-size: 20px;
     color: #ffffff;
     font-weight: bold;
-    margin-right: 10px; /* Ajuste a margem conforme necessário */
+    margin-right: 5px; /* Ajuste a margem conforme necessário */
 }
 
 .contact-container{
@@ -728,6 +730,10 @@ body{
     }
     .icon-contact{
         font-size: 70px;
+    }
+
+    .button-itens{
+        font-size: 15px;
     }
 
     
