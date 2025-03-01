@@ -8,7 +8,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Antonio", serif;
+    font-family: "archivo-black", sans-serif;
 }
 
 body{
@@ -189,7 +189,7 @@ body{
 .main-container h1 {
     display: block;
     top: -10px;
-    font-size: 36px;
+    font-size: 25px;
     letter-spacing: .1rem;
     font-weight: 800;
     color: rgb(255, 255, 255);
@@ -200,7 +200,7 @@ body{
     top: 85px;
     color: rgb(0, 0, 0);
     letter-spacing: 0.1em;
-    font-size: 20px;
+    font-size: 13px;
     font-weight: bold;
     margin: 0 auto;
     padding: 10px;
@@ -574,7 +574,14 @@ body{
 
 .reminder-right h1{
     color: #ffffff;
-    font-size: 2rem;
+    font-size: 1rem;
+    letter-spacing: .1em;
+    padding: 5px;
+}
+
+.reminder-right p{
+    color: #ffffff;
+    font-size: 10px;
     letter-spacing: .1em;
     padding: 5px;
 }
@@ -623,7 +630,7 @@ body{
     top: 10px;
     left: 0;
     color: #ff6200;
-    font-size: 1.5em;
+    font-size: 20px;
     letter-spacing: .1em;
     padding: 10px;
 
@@ -662,7 +669,7 @@ body{
 
 .footer-container p{
     color: #ffffff;
-    font-size: 1em;
+    font-size: 10px;
     letter-spacing: .1em;
     padding: 10px;
 }
