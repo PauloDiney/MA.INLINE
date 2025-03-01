@@ -8,7 +8,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "archivo-black", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -202,6 +202,7 @@ body{
     color: rgb(0, 0, 0);
     letter-spacing: 0.1em;
     font-size: 15px;
+    font-weight: 800;
     margin: 0 auto;
     padding: 10px;
 }
@@ -230,7 +231,7 @@ body{
 
 
 .info-container h1{
-    font-size: 1rem;
+    font-size: 1.5rem;
     letter-spacing: .1rem;
     font-weight: 800;
     color: #FF7520;
@@ -270,6 +271,7 @@ body{
     letter-spacing: .1em;
     color: #fff;
     padding: 10px;
+    font-weight: 800;
 }
 
 .container-carrosel{
@@ -293,7 +295,8 @@ body{
 }
 
 .container-carrosel h1{
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: 800;
     position: absolute;
     top: 10px;
     letter-spacing: .1rem;
@@ -356,13 +359,12 @@ body{
     width: 200px;
     padding: 5px;
     height: 50px;
-    font-size: 12px;
-    font-weight: 300;
+    font-size: 15px;
+    font-weight: 800;
     background-color: transparent;
     color: #FF7520;
     border: none;
     cursor: pointer;
-    margin: 0 auto;
     transition: .2s;
     outline: none;
 }
@@ -372,12 +374,10 @@ body{
 }
 
 .button-change h1{
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #FF7520;
     font-weight: bold;
-    padding: 10px;
     margin: 0 auto;
-    
 }
 
 .hour-container{
@@ -404,18 +404,21 @@ body{
     color: #ffffff;
     font-size: 20px;
     letter-spacing: .1em;
+    font-weight: 800;
     padding: 10px;
 }
 
 .hour-container .hour-itens p{
     color: #ffffff;
     font-size: 15px;
+    font-weight: 800;
     letter-spacing: .1em;
 }
 
 .hour-container h2{
     color: #000000;
     font-size: 20px;
+    font-weight: 800;
     letter-spacing: 5px;
     margin-top: 10px;
     text-align: center;
@@ -424,12 +427,12 @@ body{
 
 .hour-container p{
     margin-top: 10px;
+    font-weight: 700;
     color: #000000;
     text-align: center;
     font-size: 13px;
     letter-spacing: 2px;
     padding: 10px;
-    font-weight: 200;
 }
 
 .clas-container{
@@ -514,9 +517,11 @@ body{
 .clas-itens-1 p,
 .clas-itens-2 p,
 .clas-itens-3 p{
+    
     color: #000000;
-    font-size: 15px;
-    letter-spacing: 2px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 800;
     padding: 5px;
 }
 
@@ -579,12 +584,14 @@ body{
     color: #ffffff;
     font-size: 1rem;
     letter-spacing: .1em;
+    font-weight: 800;
     padding: 5px;
 }
 
 .reminder-right p{
     color: #ffffff;
-    font-size: 10px;
+    font-size: 13px;
+    font-weight: 800;
     letter-spacing: 1px;
     padding: 5px;
 }
@@ -604,7 +611,7 @@ body{
 }
 
 .reminder-list ion-icon {
-    font-size: 20px;
+    font-size: 30px;
     color: #ffffff;
     font-weight: bold;
     margin-right: 5px; /* Ajuste a margem conforme necessário */
@@ -674,10 +681,12 @@ body{
     color: #ffffff;
     font-size: 10px;
     letter-spacing: .1em;
+    font-weight: 800;
     padding: 10px;
 }
 
 .footer-container a{
+    font-weight: 800;
     color: #00bfff;
     font-size: 1em;
     letter-spacing: .1em;
