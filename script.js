@@ -24,17 +24,19 @@ document.addEventListener('DOMContentLoaded', () => {
     if (btnPrudente && btnFeijo && dayText && timeText) {
         btnPrudente.addEventListener('click', () => {
             dayText.innerText = 'SEGUNDA A QUINTA-FEIRA';
-    
+            timeText.innerText = '17:00 às 20:00';
             btnPrudente.classList.add('active');
             btnFeijo.classList.remove('active');
         });
 
         btnFeijo.addEventListener('click', () => {
-            dayText.innerText = 'SEXTA-FEIRA';
+            dayText.innerText = 'QUINTA-FEIRA';
+            timeText.innerText = '17:30 às 18:30';
             btnFeijo.classList.add('active');
             btnPrudente.classList.remove('active');
         });
 
         btnPrudente.classList.add('active'); // Inicia com Prudente ativo
+        timeText.innerText = '17:00 às 20:00'; // Inicia com horário padrão de Prudente
     }
 });
